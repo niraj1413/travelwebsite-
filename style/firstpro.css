@@ -1,0 +1,720 @@
+/*css code start from here  it work better with internet because i have used  carousel  from google  and it is not reasponsive i am still working on adding php form form*/
+
+
+body{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: 'raleway' , 'sans-serif';
+    background-color: white;
+}
+
+
+.main{
+background-image: url(../img/simon-english-48nerZQCHgo-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+background-position: center;  /*its for set image in center if ur bg img is not looking perfectly u can use these*/
+height:95vh;
+display: flex;
+
+} 
+.logonav{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.logo img{
+  height: 120px;
+  
+  transition: main 2s ease-in 2s;
+}
+
+.navbar ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    margin: 8% 0% 0% 0%;
+    width: 550px;
+}
+.firstnav{
+    color: black;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+}
+.firstnav:hover{
+    background-color: rgba(255,255,255,0.3);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+padding: 15px;
+font-size: 22px;
+
+transition:0.6s ease-in-out ;
+}
+.navbar ul li a:hover{
+ 
+    
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+    
+    color: #ffffff;
+}
+.navbar .icon1{
+    display:none;
+  }
+
+.aboutpage h1{
+    width: 720px;
+    text-transform:uppercase ;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bolder;
+    left: 100px;
+    top:300px;
+    color:rgb(238, 87, 17);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    
+}
+.aboutpage p{
+    
+    position: absolute;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    left: 100px;
+    top:390px;
+    color:rgb(255, 254, 247);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.aboutpage a{
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    left: 100px;
+    top:520px;
+    color:rgb(15, 15, 15);
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+  
+    text-decoration: none;
+}
+.aboutpage a:hover{
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+color: #ffffff;
+}
+
+
+.container-box-item{
+    border: 2px solid rgb(233, 141, 141);
+    width: 100%;
+    
+    
+}
+.item-heading{
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
+}
+.item-para{
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    position: relative;
+    top:30px
+}
+
+
+.item-button{
+    
+    padding: 10px;
+    color: black;
+    
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+
+   margin-bottom: 20px;
+   font-size: 22px;
+transition:0.6s ease-in-out ;
+   text-decoration: none;
+   text-transform: uppercase;
+   position: relative;
+   
+   top:40px;
+}
+.item-button:hover{
+    color: #ffffff;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+
+}
+
+.slide-heading img{
+    height: 50px;
+    position: relative;
+    top:13px
+}
+.slide-heading{
+    
+    text-align:center ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px 40px 0px 0px;
+    text-transform: uppercase;
+    color: chocolate;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+  margin-top: 40px ;
+  margin-bottom:40px ;
+  
+}
+
+.carousel .container-box-item1 {
+    background-image: url(../img/desert-2435404__340.webp);
+  display: block;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:0px 0px 10px 10px;
+  padding: 10px;
+}
+
+.carousel .container-box-item2{
+    background-image: url(../img/polynesia-3021072__340.webp);
+  display: block;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:0px 0px 10px 10px;
+  padding: 10px;
+}
+.carousel .container-box-item3{
+    background-image: url(../img/simon-english-48nerZQCHgo-unsplash.jpg);
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin:0px 0px 10px 10px;
+  padding: 10px;
+}
+
+.carousel .container-box-item4{
+    background-image: url(../img/sunrise-1014712__340.webp);
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0px 0px 10px 10px;
+    padding: 10px;
+}
+.carousel .container-box-item5{
+    background-image: url(../img/nature-6780354__340.webp);
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0px 0px 10px 10px;
+    padding: 10px;
+}
+.carousel .container-box-item6{
+    background-image: url(../img/onlinelogomaker-072921-2009-2607.png);
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0px 0px 10px 10px;
+    padding: 10px;
+}
+
+
+/* ----------glassmorphism card hover ----------*/
+
+.card{
+    margin-top:20px;
+    padding-top:0px;
+    padding-bottom:100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:95hv;
+      background-color: #161623;
+  }
+  .card::before{
+      content: '';
+      position: absolute;
+      box-sizing:border-box;
+      right:8px;
+      width: 100%;
+      height:219%;
+      background: linear-gradient(#f00,#f0f);
+      clip-path: circle(20% at right 70%);
+  }
+  .card::after{
+      content: '';
+      position: absolute;
+     
+      left:8px;
+      width: 97%;
+      height: 143%;
+      background: linear-gradient(#2196f3,#e91e63);
+      clip-path: circle(16% at 10% 10%);
+  }
+  .information-container{
+      
+    position:relative;
+    display:flex;
+    justify-content:center;
+     align-items:center;
+     max-width:1200px;
+     flex-wrap:wrap;
+     z-index:1;
+  
+  }
+  .information-container .information{
+    position:relative;
+    width:400px;
+    height: 320px;
+    margin:60px 40px 110px 140px;
+    box-shadow:20px 20px 50px rgb(0,0,0,0.5);
+    border-radius:15px;
+    background:rgba(255,255,255,0.1);
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:1px solid rgba(255,255,255,0.3);
+    border-left:1px solid rgba(255,255,255,0.3);
+    backdrop-filter:blur(5px);
+  }
+  .information-container .information .content{
+    padding:20px;
+    text-align:center;
+    transform:translateY(150px);
+    transition:0.5s;
+  }
+  .information-container .information:hover .content
+  {
+    transform:translateY(0px);
+    opacity:1;
+  }
+  .information-container .information .content{
+   font-size:1em;
+   color:#ffff;
+   font-weight:300;
+  
+  }
+  
+  .information-container .information .content a{
+    position:relative;
+    display:inline-block;
+    padding:8px 20px;
+    margin-top:15px;
+    background-color:#ffff;
+    color:#000;
+    text-decoration:none;
+    border-radius:20px;
+    font-weight:500;
+    box-shadow:5px 5px 3px #575555;
+  }
+  .founder{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .insidefounder{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 30px 0px 0px 30px;
+  }
+  .founder img{
+    width: 250px;
+    clip-path: circle(50% at 50% 50%);
+    
+
+}
+.founder div h2{
+  
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.founder div p{
+    width:350px;
+  
+    font-size: 18px;
+    font-weight: bolder;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+
+  
+  .aboutus  {
+    display: flex;
+    
+  justify-content: center;
+    width:100%;
+    box-sizing: border-box;
+    height: 300px;
+  margin :20px 40px 0px 0px;
+  background-color:rgb(119, 136, 119);
+  }
+ 
+  .aboutus-two{
+  
+    margin:90px 0px 10px 20px;
+    width:60%;
+   
+    text-align:justify;
+    
+      font-size: 20px ;
+      font-family:Arial, Helvetica, sans-serif;
+      color: rgb(15, 15, 15);
+ 
+  }
+  .aboutus-one{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus-one h1{
+    text-transform:uppercase;
+    margin:20px 0px 15px 5px;
+  }
+  .aboutus-one img{
+
+  width:250px;
+  height:200px;
+  }
+
+.travelform{
+      
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin: 20px 20px 10px 10px;
+         background-color:#7b7471;
+}
+
+.travelform form{
+    margin:40px;
+    padding: 20px 40px 20px 40px;
+     background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    backdrop-filter:blur(5px);
+}
+.travelform form input[type="text"],input[type="number"], input[type="email"]{
+padding: 10px;
+font-size: 17px;
+margin: 10px auto;
+width: 240px;
+color: black;
+border-radius: 10px;
+text-align: center;
+text-transform:unset;
+}
+
+.travelform form textarea{
+  width:240px;
+  height:200px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 17px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.travelform form input[type="submit"]
+{
+    padding: 10px;
+    font-size: 20px;
+    width:150px;
+    margin:  20px auto;
+    color: rgb(14, 13, 13);
+    background-color: rgb(238, 228, 228);
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+.travelform form input[type="submit"]:hover{
+    background-color: rgba(88, 78, 78, 0.3);
+    border-radius: 5px;
+   box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+   color:black;
+}
+.suscribe{
+  display:inline-block;
+  text-align:center;
+  width:100%;
+  height: 150px;
+color:darkseagreen;
+  background-color: rgb(36, 173, 55);
+
+}
+.suscribe input{
+  width:300px;
+  margin-top:40px;
+  padding:10px 15px 10px 15px;
+  font-family: 'Baloo Bhai 2', cursive;
+font-size: 20px;
+font-weight: bolder;
+background-color:rgb(36, 173, 55);
+border:2px solid rgb(247, 242, 242);
+color:darkseagreen;
+border-radius: 10px;
+}
+
+.suscribe button{
+  margin-top:40px;
+padding:10px;
+  font-family: 'Baloo Bhai 2', cursive;
+font-size: 20px;
+font-weight: bolder;
+background-color:rgb(238, 245, 239);
+border:2px solid rgb(247, 242, 242);
+color:rgb(36, 173, 55);
+border-radius: 5px;
+}
+.contshortcut{
+  display:flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#conth1{
+  
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+#conth2{
+   font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.contp{
+
+  font-weight: bolder;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 25px;
+  
+}
+.contp ul li{
+  list-style: none;
+}
+.contp ul li  a{
+  text-decoration: none;
+  color: black;
+}
+
+.site{
+
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-family: 'Baloo Bhai 2', cursive;
+
+}
+.tel
+{
+  font-size: 25px;
+font-family: 'Baloo Bhai 2', cursive;
+padding: 8px;
+}
+.contlogo1 img{
+  width: 50px;
+}
+.contlogo2 img{
+  width: 50px;
+}
+.contlogo3 img{
+  width: 50px;
+}
+
+footer{
+margin-top: 20px;
+}
+
+footer div{
+    background-color:black;
+    padding: 15px;
+    text-align: center;
+    color:white;
+}
+@media only screen and (max-width:700px){
+  body{
+    width:100%;
+  }
+    .main{
+      width:100%;
+    }
+.logonav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -350px;
+}
+.logo{
+  text-align: center;
+}
+    .navbar ul {
+    
+      text-align: center;
+    }
+      .navbar ul li {
+        margin-top: -20px  ;
+        
+      }
+      .navbar ul li a{
+        padding:7px;
+       margin: 10px 0px 0px -70px;
+        font-size:15px;
+      }
+      .aboutpage h1{
+        font-size:25px;
+        font-weight:bolder;
+        left:50px;
+
+      }
+      .aboutpage p{
+        font-size:13px;
+        width:420px;
+        text-align:justify;
+        left:50px;
+        top:340px;
+        font-weight:bolder;
+      }
+      .aboutpage a{
+        font-size:17px;
+        font-weight:bolder;
+        top:460px;
+        left:50px;
+      }
+      .slide-heading{
+        font-size:20px;
+      }
+      .slide-heading img{
+        height:40px;
+
+      }
+      .item-heading{
+        font-size:20px;
+        text-align:center;
+      }
+      .item-para{
+        font-size:19px;
+        text-align:justify;
+        top:10px;
+      }
+      .item-button{
+        font-size:20px;
+        top:15px;
+        }
+        .carousel .container-box-item1,.carousel .container-box-item2,.carousel .container-box-item3,.carousel .container-box-item4,.carousel .container-box-item5,.carousel .container-box-item6{
+          height:280px;
+        }
+        .card::before{
+         
+         clip-path: circle(0% );
+        }
+        .card::after{
+                   clip-path: circle(0%);
+        }
+        .information-container .information{
+          width:250px;
+          height: 250px;
+          margin:40px 40px 20px 40px;
+        }
+        .information-container .information .content{
+    transform:translateY(120px);
+    
+  }
+  
+  .information-container .information .content p{
+   font-size:0.8em;
+   font-weight:200;
+  
+  }
+  .information-container .information .content img{
+    width:200px;
+  }
+  .information-container .information .content a{
+        top:-10px;
+  }
+  .aboutus {
+    
+    height: 300px;
+    
+    width: 100%;
+  margin :40px 0px 0px 0px;
+  background-color:rgb(119, 136, 119);
+  }
+  .aboutus-one img{
+    width:200px;
+    margin-left:10px;
+  }
+  .aboutus-two{
+   margin:40px 0px 0px 15px;
+    font-size:18px;
+    width:50%;
+  }
+  .aboutus-one h1{
+    font-size:20px;
+    margin-left:14px;
+  }
+  
+   
+
+}
